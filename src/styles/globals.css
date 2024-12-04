@@ -4,8 +4,9 @@
 
 :root {
   /* --background: 120 33% 6%; */
+  /* --foreground: 190 15% 88%; */
   --background: 0 0% 0%;
-  --foreground: 190 15% 88%;
+  --foreground: 0 0% 78%;
 
   --muted: 24 84% 56%;
   --muted-foreground: 264 8% 63%;
