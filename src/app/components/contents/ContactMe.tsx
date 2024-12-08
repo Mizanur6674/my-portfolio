@@ -1,6 +1,30 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+"use client";
 import AnimationContainer from "@/utils/AnimationContainer";
-
 const ContactMe = () => {
+  async function handleOnSubmit(event: React.SyntheticEvent) {
+    event.preventDefault();
+
+    const target = event.target as typeof event.target & {
+      name: { value: string };
+      email: { value: string };
+      phone: { value: string };
+      message: { value: string };
+    };
+
+    const results = await fetch("/api/newsletter", {
+      method: "POST",
+      body: JSON.stringify({
+        name: target.name.value,
+        email: target.email.value,
+        phone: target.phone.value,
+        message: target.message.value,
+        validationCode: `efgh5678`,
+      }),
+    }).then((r) => r.json());
+
+    // console.log(results);
+  }
   return (
     <AnimationContainer customClassName="w-full">
       <h2
@@ -35,8 +59,9 @@ const ContactMe = () => {
 
         <div className="w-full flex justify-center items-center flex-col">
           <form
-            action="https://formspree.io/f/xdorkorr"
-            method="POST"
+            // action="https://formspree.io/f/xdorkorr"
+            // method="POST"
+            onSubmit={handleOnSubmit}
             className="w-full space-y-4"
           >
             <div>
