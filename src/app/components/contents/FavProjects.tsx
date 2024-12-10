@@ -12,6 +12,7 @@ import {
 } from "@mantine/core";
 import ExternalLink from "../shared/ExternalLink";
 import AnimationContainer from "@/utils/AnimationContainer";
+import { favProjects } from "../data/data";
 
 const useStyles = createStyles((theme: MantineTheme) => ({
   card: {
@@ -111,44 +112,6 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
     </Paper>
   );
 };
-
-const favProjects = [
-  {
-    image: "/assets/images/notebook.png",
-    title: "Notebook",
-    category: "Next.js -javaScript - TypeScript - Tailwindcss - Prisma",
-    repo: "https://github.com/Mizanur6674/notebook",
-    link: "https://notebook-psi-pearl.vercel.app/",
-  },
-  {
-    image: "/assets/images/quran-landing-page.png",
-    title: "Quran Landing Page",
-    category: "Next.js -javaScript - TypeScript - Tailwindcss",
-    repo: "https://github.com/Mizanur6674/quran-landing-page",
-    link: "https://quran-landing-page.vercel.app/",
-  },
-  {
-    image: "/assets/images/airbnb.png",
-    title: "Airbnb",
-    category: "Next.js -javaScript - TypeScript - Tailwindcss - Redux - Prisma",
-    repo: "https://github.com/Mizanur6674/airbnb-nextauth-project",
-    link: "https://fullstack-nextauth-project.vercel.app/",
-  },
-  {
-    image: "/assets/images/feedback-process.png",
-    title: "Feedback Process",
-    category: "Next.js -javaScript - TypeScript - Tailwindcss - Redux",
-    repo: "https://github.com/Mizanur6674/design-with-figma",
-    link: "https://design-with-figma-sable.vercel.app/",
-  },
-  {
-    image: "/assets/images/rongoflix.png",
-    title: "Rongoflix",
-    category: "Next.js -javaScript - TypeScript - Tailwindcss - prisma",
-    repo: "https://github.com/Mizanur6674/Rongoflix",
-    link: "https://rongoflix.vercel.app/",
-  },
-];
 
 const FavProjects = () => {
   const theme = useMantineTheme();

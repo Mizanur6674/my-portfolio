@@ -25,7 +25,7 @@ const CurrentTimeLineExp = () => {
     <Timeline>
       <TimelineEvent active>
         <TimelineEvent.Title>
-          <h6 className="text-white">Frontend Web Developer</h6>
+          <h6 className="text-white">Frontend Developer</h6>
 
           {/* | Mar. 2023 - {calculateDuration("2023-03-01", true)} */}
           <p>KLwebco | March 2022 – Present</p>
@@ -35,7 +35,7 @@ const CurrentTimeLineExp = () => {
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          As a Frontend Web Developer at KLwebco, I have worked on building
+          As a Frontend Developer at KLwebco, I have worked on building
           responsive and interactive web applications using React.js and
           Next.js. My responsibilities include translating complex design
           concepts into pixel-perfect, mobile-first web interfaces using HTML5,

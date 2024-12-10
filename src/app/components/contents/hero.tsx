@@ -11,7 +11,7 @@ export const Hero = () => {
         </h1>
 
         <p className="flex items-center gap-2 mb-8 mx-auto lg:mx-0">
-          <span className="font-semibold">Frontend Web</span>Developer
+          <span className="font-semibold">Frontend </span>Developer
         </p>
       </AnimationContainer>
 

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import AnimationContainer from "@/utils/AnimationContainer";
 import React from "react";
-import { skills } from "../data/skills-data";
+import { skills } from "../data/data";
 import ShowSkills from "@/utils/ShowSkills";
 import { calculateDuration } from "./CurrentTimeLineExp";
 
