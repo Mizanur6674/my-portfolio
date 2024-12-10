@@ -130,7 +130,7 @@ const Footer = () => {
             </svg>
             LinkedIn
           </ExternalLink>
-          <ExternalLink href="https://europa.eu/europass/eportfolio/screen/share/documents/2833c575-9b12-44f5-8dcc-73ddef48aaa8?lang=en">
+          <ExternalLink href="https://europa.eu/europass/eportfolio/screen/share/a5c67e14-2b29-4fb1-83c7-4b8dcf1cba40?lang=en">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
