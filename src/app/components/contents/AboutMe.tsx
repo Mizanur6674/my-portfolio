@@ -9,7 +9,7 @@ const AboutMe = () => {
       </h2>
 
       <p className="text-base text-gray-400">
-        I am Md Mizanur Rahman, a dedicated and detail-oriented Frontend Web
+        I am Md Mizanur Rahman, a dedicated and detail-oriented Frontend
         Developer with over +{calculateDuration("2022-03-10", false)} of
         professional experience in creating dynamic and responsive user
         interfaces. I specialize in modern web technologies, including HTML,
@@ -28,9 +28,9 @@ export const AboutMeDetails = () => {
   return (
     <AnimationContainer customClassName="w-full my-16">
       <p className="text-base">
-        I am Md Mizanur Rahman, a dedicated and skilled Frontend Web Developer
-        with over +{calculateDuration("2022-10-03", false)} of experience in
-        building responsive, user-centric web applications. My expertise lies in
+        I am Md Mizanur Rahman, a dedicated and skilled Frontend Developer with
+        over +{calculateDuration("2022-10-03", false)} of experience in building
+        responsive, user-centric web applications. My expertise lies in
         utilizing modern technologies like React.js, Next.js, HTML5, CSS3,
         JavaScript, and Tailwind CSS to create seamless and visually appealing
         web interfaces. With a strong focus on performance optimization,
